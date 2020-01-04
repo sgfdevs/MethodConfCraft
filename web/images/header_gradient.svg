@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="472px" viewBox="0 0 1440 472" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Gradient</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-10">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-11">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-12">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.35">
+        <g id="Main-Desktop" transform="translate(0.000000, -258.000000)">
+            <g id="Hero-Header">
+                <g id="Gradient" transform="translate(0.000000, 258.000000)">
+                    <polygon id="Fill-1" fill="url(#linearGradient-1)" points="675 472 809 472 809 0 675 0"></polygon>
+                    <polygon id="Fill-3" fill="url(#linearGradient-2)" points="563 472 698 472 698 0 563 0"></polygon>
+                    <polygon id="Fill-5" fill="url(#linearGradient-3)" points="436 472 572 472 572 0 436 0"></polygon>
+                    <polygon id="Fill-7" fill="url(#linearGradient-1)" points="0 472 134 472 134 0 0 0"></polygon>
+                    <polygon id="Fill-9" fill="url(#linearGradient-2)" points="325 472 460 472 460 0 325 0"></polygon>
+                    <polygon id="Fill-11" fill="url(#linearGradient-4)" points="288 472 345 472 345 0 288 0"></polygon>
+                    <polygon id="Fill-13" fill="url(#linearGradient-5)" points="204 472 293 472 293 0 204 0"></polygon>
+                    <polygon id="Fill-15" fill="url(#linearGradient-6)" points="107 472 219 472 219 0 107 0"></polygon>
+                    <polygon id="Fill-17" fill="url(#linearGradient-7)" points="849 472 876 472 876 0 849 0"></polygon>
+                    <polygon id="Fill-19" fill="url(#linearGradient-8)" points="778 472 855 472 855 0 778 0"></polygon>
+                    <polygon id="Fill-21" fill="url(#linearGradient-9)" points="522 472 598 472 598 0 522 0"></polygon>
+                    <polygon id="Fill-23" fill="url(#linearGradient-10)" points="1308 472 1379 472 1379 0 1308 0"></polygon>
+                    <polygon id="Fill-25" fill="url(#linearGradient-3)" points="870 472 1006 472 1006 0 870 0"></polygon>
+                    <polygon id="Fill-27" fill="url(#linearGradient-1)" points="1196 472 1330 472 1330 0 1196 0"></polygon>
+                    <polygon id="Fill-29" fill="url(#linearGradient-11)" points="1158 472 1217 472 1217 0 1158 0"></polygon>
+                    <polygon id="Fill-31" fill="url(#linearGradient-5)" points="1075 472 1164 472 1164 0 1075 0"></polygon>
+                    <polygon id="Fill-33" fill="url(#linearGradient-6)" points="978 472 1090 472 1090 0 978 0"></polygon>
+                    <polygon id="Fill-35" fill="url(#linearGradient-12)" points="1367 472 1440 472 1440 0 1367 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
