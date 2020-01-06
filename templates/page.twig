@@ -1,0 +1,11 @@
+{% extends "basepage.twig" %}
+
+{% block pagecontent %}
+    <div class="page">
+        {{ entry.pageContent }}
+    </div>
+
+    <div style="margin-bottom: 3em;"></div>
+
+    {% include 'sponsors.twig' %}
+{% endblock %}

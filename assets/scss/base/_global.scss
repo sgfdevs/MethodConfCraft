@@ -1,0 +1,64 @@
+/*
+- Base - Core/global element styling -- Normalize, Typography, Forms, Images, Tables, Global(rando shit), Grids/global layout containers/wrappers
+- Utilities - Tools/helpers/variables/mixins/functions
+- Vendor - 3rd party styling(fancybox, twitter bootstrap, foundaiton, sliders, animate.css, select 2, etc)
+- Animations - main animations file as default. Split into multiples as needed.
+- Pages - High level - page specific styling. Named tightly to the page name/type
+- Modules - Most things will live here. each of a set of standardized parts or independent units that can be used to construct a more complex structure, such as an item of furniture or a building.
+- Deprecated - Use this as needed on a per project basis. Example: move old things here that still need to live, Backup old items here that don’t need compiled but you want to keep around for a historical reasons, etc
+*/
+
+
+* { box-sizing: border-box; }
+
+html {
+    
+}
+
+body {
+    font-family: 'SourceSansVariable';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #222;
+
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    @include mq-small
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #D72F32;
+    text-decoration: underline;
+}
+
+a, a:visited, a:active, a:hover {
+    outline: none !important;
+    border: none;
+}
+
+.container {
+    max-width: 1200px; margin: 0 auto; padding: 0 30px; position: relative;
+
+    &.wide { max-width: 1600px; }
+}
+
+.s_container {
+    padding: 0 $site_padding_large;
+    
+    @include mq-large-tablet
+    {
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,19 @@
+.code_of_conduct
+{
+    padding: 130px 20px 157px 20px;
+    
+    background: url("/images/graphic_left.svg") top left no-repeat, url("/images/graphic_right.svg") bottom right no-repeat;
+    
+    .content {
+        max-width: 770px;
+        margin: 0 auto;
+    }
+    
+    section {
+        margin-bottom: 60px;
+        
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.sponsor_banner
+{
+    background: #1E1E1E url("/images/sponsor_banner_red.svg") center right no-repeat;
+    background-size: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 228px;
+    
+    margin-bottom: 90px;
+    
+    h2 {
+        margin: 0 31px 0 62px;
+    }
+    
+    @include mq-desktop
+    {
+        flex-direction: column;
+        height: auto;
+        padding: 50px;
+        
+        background: #1E1E1E url("/images/sponsor_banner_red_mobile.svg") center right no-repeat;
+        background-size: cover;
+        
+        h2 {
+            margin: 30px 0;
+            text-align: center;
+        }
+    }
+}

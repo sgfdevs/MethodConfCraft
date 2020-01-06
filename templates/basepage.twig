@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <header class="site_header internal_page">
+        <div class="container">
+            <div class="intro">
+                <a href="/"><img src="/images/method_logo.svg" alt="Method Logo"></a>
+                <h1>
+                    <time datetime="2020-03-05 08:00">Thursday, March 5th, 2020</time> in Springfield, MO
+                </h1>
+                <h2>An immersive day of code, design, and content</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav class="site_nav">
+        <div class="container">
+            <ul>
+                <li>
+                    <a class="button" href="/">Event Details</a>
+                </li>
+                <li>
+                    <tito-button event="springfield-devs/method-conference-2020">Register</tito-button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    {% block pagecontent %}{% endblock %}
+{% endblock %}

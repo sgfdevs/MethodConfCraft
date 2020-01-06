@@ -1,0 +1,33 @@
+.button, button, .swal-button, .swal-button--confirm {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background: #000;
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+    transition: transform 0.15s;
+    border-radius: 0;
+    outline: none;
+    border: 0;
+    @include FontSourceSans;
+    
+    &:hover, &:not([disabled]):hover {
+        transform: translateY(-3px);
+        background: #000;
+    }
+    
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    
+    @include mq-small
+    {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+}

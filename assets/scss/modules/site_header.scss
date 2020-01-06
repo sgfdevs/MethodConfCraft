@@ -1,0 +1,82 @@
+.site_header
+{
+    background: $dark_jungle;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    
+    .intro {
+        text-align: center;
+        padding: 80px 0 0 0;
+    }
+    
+    h1 {
+        margin: 33px 0 0 0;
+        font-weight: 100;
+        font-size: 40px;
+        color: #fff;
+        letter-spacing: 0.13px;
+        line-height: 60px;
+    }
+    
+    h2 {
+        font-weight: normal;
+        font-size: 18px;
+        color: #fff;
+        line-height: 28px;
+        border-top: 1px solid #434343;
+        padding: 20px 10px 0 10px;
+        display: inline-block;
+    }
+    
+    &.internal_page {
+        padding-bottom: 80px;
+    }
+    
+    .skyline {
+        background: url("/images/header_gradient.svg");
+        background-size: cover;
+        padding-top: 50px;
+        position: relative;
+        top: 6px;
+        
+        img {
+            object-fit: cover;
+            width: 100%;
+            position: relative;
+            top: 9px;
+        }
+        
+        img:last-child {
+            display: none;
+        }
+    }
+    
+    @include mq-small
+    {
+        h1 {
+            font-weight: normal;
+            font-size: 22px;
+            text-align: center;
+            line-height: 28px;
+        }
+        
+        h2 {
+            font-size: 18px;
+            line-height: 20px;
+        }
+    }
+    
+    @include mq-mobile
+    {
+        .skyline {
+            img:first-child {
+                display: none;
+            }
+
+            img:last-child {
+                display: block;
+            }
+        }
+    }
+}

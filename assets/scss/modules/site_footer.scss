@@ -1,0 +1,41 @@
+.site_footer
+{
+    margin-top: 24px;
+    margin-bottom: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    
+    .flag {
+        width: 64px;
+        height: 37px;
+        margin-right: 14px;
+    }
+    
+    section {
+        display: flex;
+        align-items: center;
+        line-height: 1em;
+        
+        p {
+            margin: 0;
+        }
+        
+        span {
+            margin-left: 10px;
+        }
+    }
+    
+    .social {
+        a {
+            text-decoration: none;
+            font-size: 1.25em;
+            margin-right: 24px;
+            
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

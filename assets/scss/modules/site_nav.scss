@@ -1,0 +1,31 @@
+.site_nav
+{
+    background: #d72f32;
+    position: relative;
+    z-index: 2;
+    //margin-top: -4px;
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+        display: flex;
+        justify-content: flex-end;
+        transform: translateY(24px);
+        
+        li {
+            margin-right: 20px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    
+    @include mq-small
+    {
+        .container {
+            //padding: 0;
+        }
+    }
+}

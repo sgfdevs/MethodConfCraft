@@ -1,0 +1,117 @@
+.event_schedule
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    @mixin schedule_header {
+        font-weight: 100;
+        font-size: 40px;
+        color: #222222;
+        letter-spacing: 0.13px;
+        line-height: 60px;
+        margin: 0 0 34px 0;
+        
+        @include mq-small
+        {
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+    
+    @mixin pseudo_header($label) {
+        margin-top: 32px;
+
+        &:before {
+            @include schedule_header;
+            content: $label;
+            position: absolute;
+            top: -37px;
+            left: 0;
+        }
+    }
+    
+    h3 {
+        @include schedule_header;
+    }
+
+    hgroup {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 48px;
+        margin-top: 30px;
+    }
+    
+    .session_block {
+        display: grid;
+        grid-column-gap: 48px;
+        grid-row-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "main1 workshop1"
+            "main2 workshop1"
+            "main3 workshop1"
+            "lunch lunch"
+            "main4 workshop2"
+            "main5 workshop2"
+            "main6 workshop2"
+            "keynote keynote";
+        
+        .speaker_card:nth-child(1) { grid-area: main1; }
+        .speaker_card:nth-child(2) { grid-area: main2; }
+        .speaker_card:nth-child(3) { grid-area: main3; }
+        .speaker_card:nth-child(4) { grid-area: workshop1; }
+
+        .speaker_card:nth-child(5) { grid-area: lunch; }
+
+        .speaker_card:nth-child(6) { grid-area: main4; }
+        .speaker_card:nth-child(7) { grid-area: main5; }
+        .speaker_card:nth-child(8) { grid-area: main6; }
+        .speaker_card:nth-child(9) { grid-area: workshop2; }
+
+        .speaker_card:nth-child(10) { grid-area: keynote; }
+
+        .speaker_card:last-child {
+            display: none;
+        }
+    }
+    
+    @include mq-small
+    {
+        hgroup {
+            display: none;
+        }
+        
+        .session_block {
+            display: flex;
+            flex-direction: column;
+            margin-top: 2em;
+            
+            .speaker_card {
+                margin-bottom: 16px;
+            }
+            
+            // Main Track
+            .speaker_card:nth-child(1) { order: 1; }
+            .speaker_card:nth-child(2) { order: 2; }
+            .speaker_card:nth-child(3) { order: 3; }
+            .speaker_card:nth-child(5) { order: 4; } // Lunch
+            .speaker_card:nth-child(6) { order: 5; }
+            .speaker_card:nth-child(7) { order: 6; }
+            .speaker_card:nth-child(8) { order: 7; }
+
+            // Workshop Track
+            .speaker_card:nth-child(4) { order: 8; }
+            .speaker_card:last-child {   order: 9; display: block; } // Lunch
+            .speaker_card:nth-child(9) { order: 10; }
+
+            // Keynote
+            .speaker_card:nth-child(10) { order: 11; }
+
+            // Pseudo Headers
+            .speaker_card:nth-child(1) { @include pseudo_header('Main Track') }
+            .speaker_card:nth-child(4) { @include pseudo_header('Workshop Track') }
+            .speaker_card:nth-child(10) { @include pseudo_header('Keynote') }
+        }
+    }
+}

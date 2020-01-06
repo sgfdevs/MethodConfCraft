@@ -1,0 +1,104 @@
+.location_info
+{
+    display: grid;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    grid-template-columns: 1.35fr 1fr;
+    grid-gap: 50px;
+    
+    .map {
+        overflow: hidden;
+        padding-bottom: 50%;
+        position: relative;
+        height: 0;
+        margin-bottom: 35px;
+        
+        iframe {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+        }
+    }
+    
+    .image_slides {
+        
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        .images {
+            img {
+                width: 100%;
+                display: none;
+
+                &.current {
+                    display: block;
+                }
+            }
+        }
+        
+        i {
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+        
+        ol {
+            margin: 0 5px;
+            padding: 0;
+            display: flex;
+            
+            li {
+                width: 60px;
+                height: 22px;
+                background: #B7B7B7;
+                text-indent: -9999px;
+                margin: 0 10px;
+                cursor: pointer;
+                
+                &.current {
+                    background: #D72F32;
+                }
+            }
+        }
+    }
+    
+    dl {
+        margin: 0;
+        
+        dt {
+            font-weight: bold;
+            font-size: 28px;
+            letter-spacing: 0.2px;
+            margin: 0 0 3px 0;
+        }
+        
+        dd {
+            margin: 0 0 25px 0;
+            font-size: 20px;
+            letter-spacing: 0;
+            line-height: 36px;
+        }
+        
+        .notice {
+            font-size: 24px;
+            
+            p {
+                margin: 0;
+            }
+        }
+    }
+    
+    @include mq-small
+    {
+        display: block;
+        
+        section:first-of-type {
+            margin-bottom: 4em;
+        }
+    }
+}

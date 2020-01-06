@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build-css": "node-sass assets/scss/styles.scss web/css/styles.css --output-style compressed",
+    "css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "dependencies": {
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.2"
+  }
+}

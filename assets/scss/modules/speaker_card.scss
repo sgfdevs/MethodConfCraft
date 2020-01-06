@@ -1,0 +1,146 @@
+.speaker_card
+{
+    background: #F3F3F3;
+    padding: 25px 33px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    time {
+        font-size: 24px;
+        letter-spacing: 0.17px;
+    }
+    
+    .profile {
+        //margin-top: 15px;
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
+
+        width: 100%;
+        margin-bottom: auto;
+        margin-top: auto;
+        
+        &.mobile {
+            display: none;
+        }
+        
+        img {
+            width: 68px;
+            height: 68px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h4 {
+            font-weight: bold;
+            font-size: 28px;
+            letter-spacing: 0.2px;
+            margin: 0;
+            line-height: 1em;
+        }
+
+        a {
+            color: #D72F32;
+            text-decoration: underline;
+        }
+        
+        span {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        
+        img + .titles {
+            margin: 0 12px;
+        }
+    }
+    
+    .profile a, .more {
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 36px;
+    }
+    
+    .more {
+        margin-left: auto;
+        align-self: flex-start;
+        
+        i {
+            color: #000;
+            font-size: 14px;
+            margin-left: 10px;
+            transition: transform .25s;
+        }
+    }
+    
+    &.expanded {
+        .more {
+            i {
+                transform: rotate(180deg);
+            }
+        }
+    }
+    
+    &.inline {
+        .content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        time {
+            flex-shrink: 0;
+        }
+        
+        .profile {
+            padding-top: 0;
+            margin-left: 34px;
+        }
+    }
+    
+    .more_content {
+        display: none;
+    }
+    
+    @include mq-small
+    {
+        padding: 20px 11px;
+        
+        .profile.mobile {
+            display: flex;
+        }
+        
+        .profile:not(.mobile) {
+            .more, h4 {
+                display: none;
+            }
+        }
+        
+        &.inline {
+            .content {
+                display: block;
+            }
+
+            .profile {
+                margin-left: 0;
+            }
+        }
+        
+        time {
+            font-size: 16px;
+            line-height: 1em;
+        }
+        
+        .profile {
+            padding-top: 5px;
+            
+            h4 {
+                font-size: 20px;
+            }
+
+            a, .more, span {
+                font-size: 16px;
+            }
+        }
+    }
+}
