@@ -100,5 +100,14 @@
         section:first-of-type {
             margin-bottom: 4em;
         }
+
+        .image_slides {
+            ol {
+                li {
+                    width: 41px;
+                    height: 15px;
+                }
+            }
+        }
     }
 }
