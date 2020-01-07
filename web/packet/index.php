@@ -1,0 +1,1 @@
+< ?php header("Location: https://drive.google.com/file/d/1c0YzunFZtql2VS2mlT0JLawdphNsTdun/view"); ?>
