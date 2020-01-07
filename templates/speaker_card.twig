@@ -1,0 +1,36 @@
+<div class="speaker_card">
+    <time>{{ session.timeLabel }}</time>
+
+    <div class="profile mobile">
+        <h4>{{ session.title }}</h4>
+        <a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>
+    </div>
+
+    <div class="profile">
+        {% if speaker|length and speaker.image.exists() %}
+            {% set speakerImage = speaker.image.one() %}
+            <img src="{{ speakerImage.url }}" alt="{{ speaker.title }}">
+        {% endif %}
+
+        <div class="titles">
+            <h4>{{ session.title }}</h4>
+
+            {% if speaker|length %}
+                <a href="{{ speaker.url }}">{{ speaker.title }}</a>
+                <span>{{ speaker.professionalTitle }}</span>
+            {% endif %}
+        </div>
+
+        <a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>
+    </div>
+
+    <div class="more_content">
+        {% if session.description %}
+            {{ session.description }}
+        {% else %}
+            <p>
+                <strong>COMING SOON</strong>
+            </p>
+        {% endif %}
+    </div>
+</div>

@@ -1,0 +1,57 @@
+.speaker
+{
+    padding: 66px 0 86px 0;
+    background: #F3F3F3;
+
+    .content {
+        display: flex;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 42px;
+        color: #222222;
+        letter-spacing: 0.14px;
+        line-height: 49px;
+    }
+
+    .social {
+        margin-left: 15px;
+
+        a {
+            margin-left: 15px;
+            text-decoration: none;
+        }
+    }
+
+    .bio {
+        margin-right: 30px;
+        flex: 1;
+    }
+
+    .image {
+        width: 40%;
+        flex-shrink: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.speaker_sessions {
+    padding-top: 42px;
+
+    .speaker_card {
+        margin-bottom: 2em;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+    }
+}

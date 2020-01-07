@@ -1,3 +1,5 @@
+{% set sponsors = craft.entries.section('sponsors').all() %}
+
 <div class="section_header" id="sponsors">
     <div class="tab">
         <h3>Sponsors</h3>
@@ -8,46 +10,21 @@
     <h4 class="hero_text center">Method Conference Springfield, MO 2020 is proud to be sponsored by:</h4>
 
     <div class="list">
-        <a href="#" class="dark">
-            <figure>
-                <img src="/images/sponsors/pluralsight.png" alt="Pluralsight">
-            </figure>
-        </a>
-
-        <a href="#">
-            <figure>
-                <img src="/images/sponsors/infragistics.png" alt="infragistics">
-            </figure>
-        </a>
-
-        <a href="#">
-            <figure>
-                <img src="/images/sponsors/jetbrains.png" alt="jetbrains">
-            </figure>
-        </a>
-
-        <a href="#">
-            <figure>
-                <img src="/images/sponsors/oreilly.png" alt="oreilly">
-            </figure>
-        </a>
-
-        <a href="#">
-            <figure>
-                <img src="/images/sponsors/google.png" alt="google">
-            </figure>
-        </a>
-
-        <a href="#">
-            <figure>
-                <img src="/images/sponsors/firefox.png" alt="firefox">
-            </figure>
-        </a>
+        {% for sponsor in sponsors %}
+            <a href="{{ sponsor.websiteUrl }}" class="{{ sponsor.sponsorBackground }}" target="_blank">
+                {% if sponsor.sponsorImage.exists() %}
+                    {% set sponsorImage = sponsor.sponsorImage.one() %}
+                    <figure>
+                        <img src="{{ sponsorImage.url }}" alt="{{ sponsor.title }}">
+                    </figure>
+                {% endif %}
+            </a>
+        {% endfor %}
     </div>
 
     <div class="sponsor_banner">
         <img src="/images/method_logo.svg" alt="Method Conf Logo" />
         <h2 class="light">Interested in becoming a sponsor?</h2>
-        <a href="#" class="button">See Opportunities</a>
+        <a href="https://drive.google.com/open?id=1c0YzunFZtql2VS2mlT0JLawdphNsTdun" class="button" target="_blank">See Opportunities</a>
     </div>
 </div>

@@ -27,4 +27,15 @@
             text-align: center;
         }
     }
+
+    @include mq-small
+    {
+        img {
+            max-width: 250px;
+        }
+        h2 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
 }

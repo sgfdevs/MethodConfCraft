@@ -8,6 +8,14 @@
     &.center {
         text-align: center;
     }
+
+    @include mq-mobile
+    {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left !important;
+    }
 }
 
 h2 {

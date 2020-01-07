@@ -1,0 +1,63 @@
+{% extends "basepage.twig" %}
+{% set speakerSessions = craft.entries.section('session').relatedTo(entry).all() %}
+
+{% block pagecontent %}
+    <div class="speaker">
+        <div class="container">
+            <div class="content">
+                <div class="bio">
+                    <header>
+                        <h1>{{ entry.title }}</h1>
+                        <div class="social">
+                            {% if entry.websiteUrl %}
+                                <a href="{{ entry.websiteUrl }}" target="_blank">
+                                    <i class="far fa-globe"></i>
+                                </a>
+                            {% endif %}
+
+                            {% if entry.githubUrl %}
+                                <a href="{{ entry.githubUrl }}" target="_blank">
+                                    <i class="fab fa-github-alt"></i>
+                                </a>
+                            {% endif %}
+
+                            {% if entry.twitterUrl %}
+                                <a href="{{ entry.twitterUrl }}" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            {% endif %}
+                        </div>
+                    </header>
+
+                    {% if entry.bio %}
+                        {{ entry.bio }}
+                    {% else %}
+                        <p>
+                            <strong>COMING SOON.</strong>
+                        </p>
+                    {% endif %}
+                </div>
+                <div class="image">
+                    {% if entry.image.exists() %}
+                        {% set speakerImage = entry.image.one() %}
+                        <img src="{{ speakerImage.url }}" alt="{{ entry.title }}">
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="speaker_sessions">
+            <h2 class="hero_text">Speaking Sessions & Workshops</h2>
+            {% for session in speakerSessions %}
+                {% set speaker = session.speaker.one() %}
+                {% include 'speaker_card.twig' %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div style="margin-bottom: 3em;"></div>
+
+    {% include 'sponsors.twig' %}
+{% endblock %}

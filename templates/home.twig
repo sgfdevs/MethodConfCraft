@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base.twig" %}
 {% set sessions = craft.entries.section('session').all() %}
 
 {% block content %}
@@ -115,18 +115,7 @@
 
             <div class="more_content">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid beatae debitis dicta ea error et
-                    facilis fuga illum impedit incidunt ipsum iste non quidem quod repellendus, sequi totam unde? Culpa.
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid beatae debitis dicta ea error et
-                    facilis fuga illum impedit incidunt ipsum iste non quidem quod repellendus, sequi totam unde? Culpa.
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid beatae debitis dicta ea error et
-                    facilis fuga illum impedit incidunt ipsum iste non quidem quod repellendus, sequi totam unde? Culpa.
+                    <strong>COMING SOON.</strong>
                 </p>
             </div>
         </div>
@@ -139,42 +128,7 @@
         <div class="session_block">
             {% for session in sessions %}
             {% set speaker = session.speaker.one() %}
-            <div class="speaker_card">
-                <time>{{ session.timeLabel }}</time>
-
-                <div class="profile mobile">
-                    <h4>{{ session.title }}</h4>
-                    <a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>
-                </div>
-
-                <div class="profile">
-                    {% if speaker|length and speaker.image.exists() %}
-                    {% set speakerImage = speaker.image.one() %}
-                    <img src="{{ speakerImage.url }}" alt="{{ speaker.title }}">
-                    {% endif %}
-
-                    <div class="titles">
-                        <h4>{{ session.title }}</h4>
-
-                        {% if speaker|length %}
-                        <a href="#">{{ speaker.title }}</a>
-                        <span>{{ speaker.professionalTitle }}</span>
-                        {% endif %}
-                    </div>
-
-                    <a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>
-                </div>
-
-                <div class="more_content">
-                    {% if session.description %}
-                    {{ session.description }}
-                    {% else %}
-                    <p>
-                        <strong>COMING SOON</strong>
-                    </p>
-                    {% endif %}
-                </div>
-            </div>
+                {% include 'speaker_card.twig' %}
             {% endfor %}
         </div>
     </div>
@@ -288,12 +242,12 @@
             <section>
                 <h3>Transparent Finances</h3>
                 <p>
-                    We are interested in putting on a hell of an event for developers and aspiring devs near and far. To
+                    We are interested in putting on a heck of an event for developers and aspiring devs near and far. To
                     attract top notch speakers and host it at a cool location, everything cost money. We don’t do this
                     to pocket fat stacks so we are publishing our books to embrace the transparency that affords.
                 </p>
 
-                <a href="#" class="button">See It On Github</a>
+                <a href="https://github.com/sgfdevs/treasurer" class="button" target="_blank">See It On Github</a>
             </section>
         </div>
     </div>

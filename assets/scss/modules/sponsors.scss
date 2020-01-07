@@ -32,4 +32,14 @@
             }
         }
     }
+
+    @include mq-mobile
+    {
+        padding-top: 0;
+
+        .list {
+            margin-top: 1em;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
 }

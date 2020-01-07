@@ -16,4 +16,10 @@
             margin-bottom: 0;
         }
     }
+
+    @include mq-mobile
+    {
+        padding: 70px 20px 60px 20px;
+        background: url("/images/graphic_left.svg") -80px 0 no-repeat, url("/images/graphic_right_mobile.svg") bottom right no-repeat;
+    }
 }

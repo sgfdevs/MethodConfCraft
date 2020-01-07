@@ -38,4 +38,27 @@
             }
         }
     }
+
+    @include mq-mobile
+    {
+        flex-direction: column;
+        margin-top: 60px;
+
+        section:nth-child(2) {
+            order: 1;
+        }
+        section:nth-child(1) {
+            order: 2;
+            flex-direction: column;
+            //display: block;
+        }
+
+        .flag {
+            //text-align: center;
+            margin: 34px 0;
+            img {
+                width: 100px;
+            }
+        }
+    }
 }
