@@ -97,11 +97,11 @@
 
         <div class="speaker_card inline">
             <div class="content">
-                <time>7:00AM–8:00AM</time>
+                <time>7:45AM</time>
 
                 <div class="profile mobile">
                     <h4>Attendee Check-in/Badge Pick-up</h4>
-                    <a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>
+                    {#<a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>#}
                 </div>
 
                 <div class="profile">
@@ -109,7 +109,32 @@
                         <h4>Attendee Check-in/Badge Pick-up</h4>
                     </div>
 
-                    <a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>
+                    {#<a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>#}
+                </div>
+            </div>
+
+            <div class="more_content">
+                <p>
+                    <strong>COMING SOON.</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="speaker_card inline mt">
+            <div class="content">
+                <time>8:45AM</time>
+
+                <div class="profile mobile">
+                    <h4>Welcome Announcements</h4>
+                    {#<a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>#}
+                </div>
+
+                <div class="profile">
+                    <div class="titles">
+                        <h4>Welcome Announcement</h4>
+                    </div>
+
+                    {#<a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>#}
                 </div>
             </div>
 
@@ -130,6 +155,56 @@
             {% set speaker = session.speaker.one() %}
                 {% include 'speaker_card.twig' %}
             {% endfor %}
+        </div>
+
+        <div class="speaker_card inline mt">
+            <div class="content">
+                <time>5:30PM</time>
+
+                <div class="profile mobile">
+                    <h4>Closing Remarks</h4>
+                    {#<a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>#}
+                </div>
+
+                <div class="profile">
+                    <div class="titles">
+                        <h4>Closing Remarks</h4>
+                    </div>
+
+                    {#<a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>#}
+                </div>
+            </div>
+
+            <div class="more_content">
+                <p>
+                    <strong>COMING SOON.</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="speaker_card inline mt">
+            <div class="content">
+                <time>5:45PM</time>
+
+                <div class="profile mobile">
+                    <h4>After-Party</h4>
+                    {#<a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>#}
+                </div>
+
+                <div class="profile">
+                    <div class="titles">
+                        <h4>After-Party</h4>
+                    </div>
+
+                    {#<a href="#" class="more">More<i class="fas fa-chevron-down"></i></a>#}
+                </div>
+            </div>
+
+            <div class="more_content">
+                <p>
+                    <strong>COMING SOON.</strong>
+                </p>
+            </div>
         </div>
     </div>
 

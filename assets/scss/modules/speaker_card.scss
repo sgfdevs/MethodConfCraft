@@ -5,12 +5,21 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    
+
+    &.mt {
+        margin-top: 30px;
+
+        @include mq-small
+        {
+            margin-top: 1em;
+        }
+    }
+
     time {
         font-size: 24px;
         letter-spacing: 0.17px;
     }
-    
+
     .profile {
         //margin-top: 15px;
         padding-top: 15px;
@@ -20,11 +29,11 @@
         width: 100%;
         margin-bottom: auto;
         margin-top: auto;
-        
+
         &.mobile {
             display: none;
         }
-        
+
         img {
             width: 68px;
             height: 68px;
@@ -44,27 +53,28 @@
             color: #D72F32;
             text-decoration: underline;
         }
-        
+
         span {
             font-size: 16px;
             line-height: 24px;
         }
-        
+
         img + .titles {
             margin: 0 12px;
         }
     }
-    
+
     .profile a, .more {
         font-size: 20px;
         letter-spacing: 0;
         line-height: 36px;
     }
-    
+
     .more {
         margin-left: auto;
         align-self: flex-start;
-        
+        flex-shrink: 0;
+
         i {
             color: #000;
             font-size: 14px;
@@ -72,7 +82,7 @@
             transition: transform .25s;
         }
     }
-    
+
     &.expanded {
         .more {
             i {
@@ -80,42 +90,43 @@
             }
         }
     }
-    
+
     &.inline {
         .content {
             display: flex;
             flex-direction: row;
             align-items: center;
         }
-        
+
         time {
             flex-shrink: 0;
         }
-        
+
         .profile {
             padding-top: 0;
             margin-left: 34px;
         }
     }
-    
+
     .more_content {
         display: none;
     }
-    
+
     @include mq-small
     {
         padding: 20px 11px;
-        
+
         .profile.mobile {
             display: flex;
+            margin: 5px 0;
         }
-        
+
         .profile:not(.mobile) {
             .more, h4 {
                 display: none;
             }
         }
-        
+
         &.inline {
             .content {
                 display: block;
@@ -125,21 +136,29 @@
                 margin-left: 0;
             }
         }
-        
+
         time {
             font-size: 16px;
             line-height: 1em;
         }
-        
+
         .profile {
             padding-top: 5px;
-            
+
             h4 {
-                font-size: 20px;
+                font-size: 18px;
             }
 
             a, .more, span {
                 font-size: 16px;
+            }
+
+            .more {
+                line-height: 1em;
+            }
+
+            h4 {
+                margin-right: 10px;
             }
         }
     }

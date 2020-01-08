@@ -12,7 +12,7 @@
     <title>Method Conf 2020 | {{ entry.title }}</title>
     {% endif %}
 
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css?cb=1" />
     <script src="https://js.tito.io/v1" async></script>
     <meta property="og:title" content="Method Conference - March 5th, 2020 in Springfield, MO">
     <meta property="og:description" content="Method Conference Springfield, MO is an imersive one-day conference with 6 sessions, workshops and keynote with an intense focus on digital development, design, UX, content, code, and more. Giving you perspective to access your skillset and see where things are going next.">
@@ -36,7 +36,7 @@
                 <img src="/images/sgf_flag.svg" alt="Springfield Flag" />
             </a>
             <p>
-                We ❤️ Springfield. <span>©2020 Springfield Devs. 501(c)6</span>
+                We ❤️ Springfield. <span>©{{ "now"|date("Y") }} Springfield Devs. 501(c)6</span>
             </p>
         </section>
 
@@ -45,7 +45,7 @@
                 <a href="https://twitter.com/methodconf" target="_blank">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a href="https://www.youtube.com/channel/UC09Jd4ouiP_BUc7REYhC2kw" target="_blank">
+                <a href="https://www.youtube.com/c/sgfdevs/videos" target="_blank">
                     <i class="fab fa-youtube"></i>
                 </a>
                 <a href="https://github.com/sgfdevs/" target="_blank">
