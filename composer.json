@@ -1,8 +1,8 @@
 {
   "require": {
-    "craftcms/cms": "3.0.41.1",
+    "craftcms/cms": "3.3.20.1",
     "craftcms/element-api": "2.6.0",
-    "craftcms/redactor": "2.1.7",
+    "craftcms/redactor": "2.4.0",
     "vlucas/phpdotenv": "^2.4.0"
   },
   "autoload": {
