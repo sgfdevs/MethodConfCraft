@@ -24,6 +24,28 @@ return [
                         'speakerName' => $speaker ? $speaker->title : null,
                         'speakerTitle' => $speaker ? $speaker->professionalTitle : null,
                         'speakerImage' => $image ? $image->url : null,
+                        'speakerBio' => $speaker ? $speaker->bio : null,
+                        'speakerProfessionalTitle' => $speaker ? $speaker->professionalTitle : null,
+                        'speakerWebsiteURL' => $speaker ? $speaker->websiteUrl : null,
+                        'speakerTwitterUrl' => $speaker ? $speaker->twitterUrl : null,
+                        'speakerTwitter2Url' => $speaker ? $speaker->twitter2Url : null,
+                        'speakerGithubUrl' => $speaker ? $speaker->githubUrl : null,
+                        'speakerLinkedinUrl' => $speaker ? $speaker->linkedinUrl : null
+                    ];
+                },
+            ];
+        },
+        'sponsors.json' => function() {
+            return [
+                'elementType' => Entry::class,
+                'criteria' => ['section' => 'sponsors'],
+                'transformer' => function(Entry $entry) {
+                    $image = $entry->sponsorImage->one();
+
+                    return [
+                        'title' => $entry->title,
+                        'url' => $entry->websiteUrl,
+                        'image' => $image ? $image->url : null,
                     ];
                 },
             ];
