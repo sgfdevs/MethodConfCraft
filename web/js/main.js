@@ -107,40 +107,4 @@ $(function() {
         $('li', imageSlides).removeClass('current');
         $('li:eq('+ index +')', imageSlides).addClass('current');
     }
-
-    Tito.on('registration:started', function(data){
-        fbq('track', 'ViewContent', {value: 1, content_type: 'registration:started'});
-    });
-
-    Tito.on('registration:filling', function(data){
-        fbq('track', 'ViewContent', {value: 1, content_type: 'registration:filling'});
-    });
-
-    Tito.on('registration:finished', function(data){
-        fbq('track', 'Purchase', {currency: "USD", value: data.total});
-    });
-
-    Tito.on('registration:complete', function(data){
-        fbq('track', 'ViewContent', {value: 1, content_type: 'registration:complete'});
-    });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
