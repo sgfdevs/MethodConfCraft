@@ -37,7 +37,6 @@
     <script>
         window.titoWidgetCallback = function(){
             Tito.on('registration:started', function(data){
-                console.log('started reg');
                 fbq('track', 'ViewContent', {value: 1, content_type: 'registration:started'});
             });
 
