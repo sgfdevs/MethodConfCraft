@@ -10,7 +10,7 @@ categoryGroups:
         hasUrls: true
         uriFormat: 'session-types/{slug}'
         template: session-types/_category
-dateModified: 1580573000
+dateModified: 1580572926
 email:
   fromEmail: president@sgf.dev
   fromName: 'Method Conf'
@@ -42,7 +42,7 @@ fields:
       columnType: text
     fieldGroup: 2577dfee-5ef6-4a1b-bcd1-93f55efbf4fa
     contentColumnType: text
-  18c2c162-7ec2-4e32-9653-d802cd40b2dc:
+  42dd3c37-b6b6-450d-84b3-ecd03f7fe859:
     name: 'Mobile Sponsor'
     handle: mobileSponsor
     instructions: ''
@@ -398,7 +398,7 @@ sections:
                 name: Content
                 sortOrder: 1
                 fields:
-                  18c2c162-7ec2-4e32-9653-d802cd40b2dc:
+                  42dd3c37-b6b6-450d-84b3-ecd03f7fe859:
                     required: false
                     sortOrder: 4
                   68729a64-08f9-43fe-b05b-9959dbff0c21:
