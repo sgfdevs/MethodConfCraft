@@ -10,7 +10,7 @@ categoryGroups:
         hasUrls: true
         uriFormat: 'session-types/{slug}'
         template: session-types/_category
-dateModified: 1579353085
+dateModified: 1580573000
 email:
   fromEmail: president@sgf.dev
   fromName: 'Method Conf'
@@ -42,6 +42,18 @@ fields:
       columnType: text
     fieldGroup: 2577dfee-5ef6-4a1b-bcd1-93f55efbf4fa
     contentColumnType: text
+  18c2c162-7ec2-4e32-9653-d802cd40b2dc:
+    name: 'Mobile Sponsor'
+    handle: mobileSponsor
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\Lightswitch
+    settings:
+      default: ''
+    contentColumnType: boolean
+    fieldGroup: 7bc3d583-a86f-457a-b97a-0ba8d1711bf1
   466cdddf-d46c-45fd-88d1-333d6e5cf248:
     name: 'Github URL'
     handle: githubUrl
@@ -377,7 +389,7 @@ sections:
         handle: sponsors
         hasTitleField: true
         titleLabel: Title
-        titleFormat: null
+        titleFormat: ''
         sortOrder: 1
         fieldLayouts:
           4a201fe5-f498-4c5a-9e6a-4a76b2ec1120:
@@ -386,6 +398,9 @@ sections:
                 name: Content
                 sortOrder: 1
                 fields:
+                  18c2c162-7ec2-4e32-9653-d802cd40b2dc:
+                    required: false
+                    sortOrder: 4
                   68729a64-08f9-43fe-b05b-9959dbff0c21:
                     required: false
                     sortOrder: 2
