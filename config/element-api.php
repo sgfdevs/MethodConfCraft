@@ -21,16 +21,18 @@ return [
                         'description' => $entry->description,
                         'time' => $entry->timeLabel,
                         'type' => $sessionType->title,
-                        'speakerName' => $speaker ? $speaker->title : null,
-                        'speakerTitle' => $speaker ? $speaker->professionalTitle : null,
-                        'speakerImage' => $image ? $image->url : null,
-                        'speakerBio' => $speaker ? $speaker->bio : null,
-                        'speakerProfessionalTitle' => $speaker ? $speaker->professionalTitle : null,
-                        'speakerWebsiteURL' => $speaker ? $speaker->websiteUrl : null,
-                        'speakerTwitterUrl' => $speaker ? $speaker->twitterUrl : null,
-                        'speakerTwitter2Url' => $speaker ? $speaker->twitter2Url : null,
-                        'speakerGithubUrl' => $speaker ? $speaker->githubUrl : null,
-                        'speakerLinkedinUrl' => $speaker ? $speaker->linkedinUrl : null
+                        'speaker' => [
+                            'name' => $speaker ? $speaker->title : null,
+                            'title' => $speaker ? $speaker->professionalTitle : null,
+                            'image' => $image ? $image->url : null,
+                            'bio' => $speaker ? $speaker->bio : null,
+                            'professionalTitle' => $speaker ? $speaker->professionalTitle : null,
+                            'websiteURL' => $speaker ? $speaker->websiteUrl : null,
+                            'twitterUrl' => $speaker ? $speaker->twitterUrl : null,
+                            'twitter2Url' => $speaker ? $speaker->twitter2Url : null,
+                            'githubUrl' => $speaker ? $speaker->githubUrl : null,
+                            'linkedinUrl' => $speaker ? $speaker->linkedinUrl : null
+                        ]
                     ];
                 },
             ];
