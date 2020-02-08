@@ -48,7 +48,8 @@ return [
                         'title' => $entry->title,
                         'url' => $entry->websiteUrl,
                         'image' => $image ? $image->url : null,
-                        'mobileSponsor' => $entry->mobileSponsor
+                        'mobileSponsor' => $entry->mobileSponsor,
+                        'background' => $entry->sponsorBackground->value,
                     ];
                 },
             ];
