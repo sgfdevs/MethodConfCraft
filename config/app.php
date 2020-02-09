@@ -17,9 +17,11 @@
  * your config/ folder, alongside this one.
  */
 
+
+
 return [
     'modules' => [
-        'my-module' => \modules\Module::class,
+        'twitter-module' => \modules\twittermodule\TwitterModule::class,
     ],
-    //'bootstrap' => ['my-module'],
+    'bootstrap' => ['twitter-module'],
 ];
