@@ -15,7 +15,7 @@ class SearchController extends Controller
     protected $allowAnonymous = ['index'];
 
     private const CACHE_KEY = 'twitter-search';
-    private const CACHE_DURATION = 30;
+    private const CACHE_DURATION = 10;
 
     public function actionIndex(): Response
     {
