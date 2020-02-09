@@ -4,8 +4,8 @@ namespace modules\twittermodule\controllers;
 
 use Craft;
 use craft\web\Controller;
-use TwitterAPIExchange;
 use Abraham\TwitterOAuth\TwitterOAuth;
+use yii\web\Response;
 
 class SearchController extends Controller
 {
@@ -15,9 +15,9 @@ class SearchController extends Controller
     protected $allowAnonymous = ['index'];
 
     private const CACHE_KEY = 'twitter-search';
-    private const CACHE_DURATION = 60 * 5;
+    private const CACHE_DURATION = 30;
 
-    public function actionIndex(): \yii\web\Response
+    public function actionIndex(): Response
     {
         $cache = Craft::$app->getCache();
 
@@ -35,7 +35,7 @@ class SearchController extends Controller
 
                 return $connection->get('search/tweets', [
                     'q' => '#coding',
-                    'count' => 50,
+                    'count' => 35,
                     'result_type' => 'recent'
                 ]);
             },
