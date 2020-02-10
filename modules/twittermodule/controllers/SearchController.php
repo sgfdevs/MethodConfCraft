@@ -34,7 +34,7 @@ class SearchController extends Controller
                 $connection->setTimeouts(30, 30);
 
                 return $connection->get('search/tweets', [
-                    'q' => '#coding',
+                    'q' => '#methodconf',
                     'count' => 35,
                     'result_type' => 'recent'
                 ]);
