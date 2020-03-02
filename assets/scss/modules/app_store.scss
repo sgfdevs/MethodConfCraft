@@ -1,0 +1,13 @@
+.app_store
+{
+    margin-top: 3em;
+    display: flex;
+
+    a {
+        max-width: 200px;
+    }
+
+    a:first-child {
+        margin-right: 20px;
+    }
+}
