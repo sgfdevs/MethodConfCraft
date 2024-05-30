@@ -1,24 +1,24 @@
 version: "3.6"
 services:
-  console:
-    build:
-      context: ./docker
-      dockerfile: cli.Dockerfile
-      args:
-          WWWUSER: "${WWWUSER:-1000}"
-          WWWGROUP: "${WWWGROUP:-1000}"
-    image: craft-8.1/cli
-    env_file: .env
-    environment:
-      XDEBUG_CONFIG: client_host=host.docker.internal
-    depends_on:
-      mysql:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
-    volumes:
-      - .:/app
-    command: php craft queue/listen
+  # console:
+  #   build:
+  #     context: ./docker
+  #     dockerfile: cli.Dockerfile
+  #     args:
+  #         WWWUSER: "${WWWUSER:-1000}"
+  #         WWWGROUP: "${WWWGROUP:-1000}"
+  #   image: craft-8.1/cli
+  #   env_file: .env
+  #   environment:
+  #     XDEBUG_CONFIG: client_host=host.docker.internal
+  #   depends_on:
+  #     mysql:
+  #       condition: service_healthy
+  #     redis:
+  #       condition: service_healthy
+  #   volumes:
+  #     - .:/app
+  #   command: php craft queue/listen
 
   web:
     build:

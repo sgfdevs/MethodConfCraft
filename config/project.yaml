@@ -10,7 +10,7 @@ categoryGroups:
         hasUrls: true
         uriFormat: 'session-types/{slug}'
         template: session-types/_category
-dateModified: 1580572926
+dateModified: 1717044035
 email:
   fromEmail: president@sgf.dev
   fromName: 'Method Conf'
@@ -535,6 +535,7 @@ siteGroups:
     name: 'Method Conf'
 sites:
   55cfac3d-0c99-45c7-a9df-cfb0299201e6:
+    siteGroup: 40402c41-068c-4a6d-badf-cfb25d9de87c
     name: 'Method Conf'
     handle: default
     language: en-US
@@ -542,7 +543,6 @@ sites:
     baseUrl: '@web/'
     sortOrder: 1
     primary: true
-    siteGroup: 40402c41-068c-4a6d-badf-cfb25d9de87c
 system:
   edition: solo
   live: true
