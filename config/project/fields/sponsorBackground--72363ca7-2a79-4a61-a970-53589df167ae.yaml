@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: sponsorBackground
+instructions: null
+name: Background
+searchable: true
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Light
+        -
+          - value
+          - light
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Dark
+        -
+          - value
+          - dark
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

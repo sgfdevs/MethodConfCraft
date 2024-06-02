@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: sessionType
+instructions: null
+name: 'Session Type'
+searchable: true
+settings:
+  allowSelfRelations: false
+  branchLimit: 1
+  localizeRelations: false
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Set Session Type'
+  showCardsInGrid: false
+  showSiteMenu: true
+  source: 'group:e23f857a-b75c-47ea-959b-ce61589c89f8' # Session Types
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

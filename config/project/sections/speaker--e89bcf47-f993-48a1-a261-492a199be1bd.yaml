@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 7e355fce-5f03-4b13-8de8-b23c7f4689d1 # Speaker
+handle: speaker
+maxAuthors: 1
+name: Speaker
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  55cfac3d-0c99-45c7-a9df-cfb0299201e6: # Method Conf
+    enabledByDefault: true
+    hasUrls: true
+    template: speaker.twig
+    uriFormat: 'speaker/{slug}'
+type: channel

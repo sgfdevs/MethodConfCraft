@@ -28,7 +28,7 @@ class SearchController extends Controller
                     getenv('TWITTER_CONSUMER_KEY'),
                     getenv('TWITTER_CONSUMER_SECRET'),
                     getenv('TWITTER_ACCESS_TOKEN'),
-                    getenv('TWITTER_ACCESS_TOKEN_SECRET'),
+                    getenv('TWITTER_ACCESS_TOKEN_SECRET')
                 );
 
                 $connection->setTimeouts(30, 30);
@@ -39,7 +39,7 @@ class SearchController extends Controller
                     'result_type' => 'recent'
                 ]);
             },
-            self::CACHE_DURATION,
+            self::CACHE_DURATION
         );
 
         return $this->asJson($response);
