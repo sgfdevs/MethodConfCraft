@@ -13,7 +13,7 @@ previewTargets:
         - '{url}'
 propagationMethod: all
 siteSettings:
-  55cfac3d-0c99-45c7-a9df-cfb0299201e6:
+  55cfac3d-0c99-45c7-a9df-cfb0299201e6: # Method Conf
     enabledByDefault: true
     hasUrls: true
     template: home.twig

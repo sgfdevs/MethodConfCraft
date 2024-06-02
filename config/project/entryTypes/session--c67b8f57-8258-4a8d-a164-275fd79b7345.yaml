@@ -30,7 +30,7 @@ fieldLayouts:
             fieldUid: 6b6ecf5c-b1dd-4f52-bd2a-e41906a77797 # Time Label
             instructions: null
             label: null
-            required: '0'
+            required: 0
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -39,7 +39,7 @@ fieldLayouts:
             fieldUid: 70dbe5d8-6c97-4514-9066-c1d121f8bd84 # Session Type
             instructions: null
             label: null
-            required: '0'
+            required: 0
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -48,7 +48,7 @@ fieldLayouts:
             fieldUid: 9536067d-c794-497b-977b-83252c95af94 # Description
             instructions: null
             label: null
-            required: '0'
+            required: 0
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -57,7 +57,7 @@ fieldLayouts:
             fieldUid: 7fc45f38-3a88-4652-ab2e-0e6bac5e3779 # Speaker
             instructions: null
             label: null
-            required: '0'
+            required: 0
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null

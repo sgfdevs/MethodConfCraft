@@ -1,6 +1,6 @@
 defaultPlacement: end
 fieldLayouts:
-  e7af273d-c596-4e20-aa9b-af2fa3aae1cd:
+  9832732d-7721-46f0-ae6f-8b173978d792:
     tabs:
       -
         elements:
@@ -32,7 +32,7 @@ fieldLayouts:
 handle: sessionTypes
 name: 'Session Types'
 siteSettings:
-  55cfac3d-0c99-45c7-a9df-cfb0299201e6:
+  55cfac3d-0c99-45c7-a9df-cfb0299201e6: # Method Conf
     hasUrls: true
     template: session-types/_category
     uriFormat: 'session-types/{slug}'

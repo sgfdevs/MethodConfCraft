@@ -30,7 +30,7 @@ fieldLayouts:
             fieldUid: 776d50aa-32ed-43ec-8217-4d36b3d9ca3b # Page Content
             instructions: null
             label: null
-            required: '0'
+            required: 0
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null

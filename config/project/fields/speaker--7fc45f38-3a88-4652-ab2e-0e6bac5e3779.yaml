@@ -1,6 +1,6 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: d64a3f4b-1126-4c94-8c00-6792255b93f3
+fieldGroup: d64a3f4b-1126-4c94-8c00-6792255b93f3 # Session Fields
 handle: speaker
 instructions: ''
 name: Speaker
