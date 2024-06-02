@@ -2,26 +2,22 @@ columnSuffix: null
 contentColumnType: text
 fieldGroup: d64a3f4b-1126-4c94-8c00-6792255b93f3 # Session Fields
 handle: description
-instructions: ''
+instructions: null
 name: Description
 searchable: true
 settings:
-  availableTransforms: '*'
+  availableTransforms: ''
   availableVolumes: '*'
+  ckeConfig: b6539371-ce4c-4185-8dd9-04a263e8cb2a # Simple
   columnType: text
-  configSelectionMode: choose
-  defaultTransform: ''
-  manualConfig: ''
-  purifierConfig: ''
-  purifyHtml: '1'
-  redactorConfig: ''
-  removeEmptyTags: '1'
-  removeInlineStyles: '1'
-  removeNbsp: '1'
-  showHtmlButtonForNonAdmins: true
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
   showUnpermittedFiles: false
-  showUnpermittedVolumes: true
-  uiMode: enlarged
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
 translationKeyFormat: null
 translationMethod: none
-type: craft\redactor\Field
+type: craft\ckeditor\Field

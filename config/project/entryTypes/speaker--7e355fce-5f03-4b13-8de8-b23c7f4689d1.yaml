@@ -2,6 +2,7 @@ fieldLayouts:
   81616812-777a-4cf9-ba90-1244c57330c4:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -23,87 +26,117 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b5fc88bb-b58a-47f1-94da-6f84dbb8e272
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: e9ca620d-c061-47f8-ae05-5f28de79ab8a # Image
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d017dcbc-4f3e-4ff2-b9bf-2804e88b4754
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 151106e8-460f-4c27-968a-ee7e7a208172 # Professional Title
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 67c4ac11-e5eb-4b60-be0c-dd8478b3e526
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 624394ce-bb4a-4e0a-8154-e7bc6371da79 # Bio
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: eb2fb863-21a4-4c06-9aa8-f78fcc49c33f
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 68729a64-08f9-43fe-b05b-9959dbff0c21 # Website URL
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 0d2de65e-ef74-4e67-97db-64155ab9591e
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 466cdddf-d46c-45fd-88d1-333d6e5cf248 # Github URL
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 4ca3236d-5601-4682-8386-6e42d54ae0a1
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: c9de1bd4-11ed-4eab-9d41-5f074df8d40f # Twitter URL
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 2fcd1db5-d777-4164-b931-db5d4e87e630
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: a174c740-f259-401e-8203-f522b28763ea # Twitter2 URL
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c7d3d22c-fcd0-4048-96b0-711d8921b6f0
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 9bae2cf5-a626-476a-a0b7-fb984823e57a # LinkedIn URL
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 45597664-5c70-4b51-8bcf-894ffafb9ddd
+            userCondition: null
             warning: null
             width: 100
         name: 'Speaker Fields'
-        sortOrder: 1
+        uid: bd019309-d3a6-450a-b4be-1c2ca2ac4e33
+        userCondition: null
 handle: speaker
 hasTitleField: true
 name: Speaker
 section: e89bcf47-f993-48a1-a261-492a199be1bd # Speaker
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

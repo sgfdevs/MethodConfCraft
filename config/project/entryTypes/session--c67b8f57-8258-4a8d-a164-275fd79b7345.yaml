@@ -2,6 +2,7 @@ fieldLayouts:
   17b89560-3d48-45eb-93c5-26f1bd997b65:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -23,51 +26,69 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 731567ef-4bff-44bf-a661-696a732b04e2
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 6b6ecf5c-b1dd-4f52-bd2a-e41906a77797 # Time Label
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1e837acd-43ba-4265-bb07-48262cddf18a
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 70dbe5d8-6c97-4514-9066-c1d121f8bd84 # Session Type
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c12b9eec-0ed4-491a-8914-6ec1f274b5b3
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 9536067d-c794-497b-977b-83252c95af94 # Description
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ef610b4b-adac-4def-a98c-6c9a8804651b
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 7fc45f38-3a88-4652-ab2e-0e6bac5e3779 # Speaker
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b4faf6b5-877a-4807-982a-e701f0f1048b
+            userCondition: null
             warning: null
             width: 100
         name: 'Session Fields'
-        sortOrder: 1
+        uid: 73e7041e-ca05-4ee6-b2bb-43e3eb0aeb06
+        userCondition: null
 handle: session
 hasTitleField: true
 name: Session
 section: e985d336-b545-4c61-a2f6-5c5fba1ab083 # Session
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

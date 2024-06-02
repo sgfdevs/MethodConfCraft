@@ -2,30 +2,34 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 2577dfee-5ef6-4a1b-bcd1-93f55efbf4fa # Speaker Fields
 handle: image
-instructions: ''
+instructions: null
 name: Image
 searchable: true
 settings:
   allowSelfRelations: false
+  allowSubfolders: false
   allowUploads: true
   allowedKinds:
     - image
+  branchLimit: null
   defaultUploadLocationSource: 'volume:3b75095c-c375-4b83-b48c-3238aa0472d1' # Local Volume
   defaultUploadLocationSubpath: speakers
-  limit: '1'
   localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
   previewMode: full
-  restrictFiles: '1'
+  restrictFiles: true
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:3b75095c-c375-4b83-b48c-3238aa0472d1' # Local Volume
+  restrictedLocationSubpath: speakers
   selectionLabel: 'Add Speaker Image'
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
-  singleUploadLocationSource: 'volume:3b75095c-c375-4b83-b48c-3238aa0472d1' # Local Volume
-  singleUploadLocationSubpath: speakers
-  source: null
   sources: '*'
   targetSiteId: null
-  useSingleFolder: true
   validateRelatedElements: false
   viewMode: large
 translationKeyFormat: null

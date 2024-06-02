@@ -1,8 +1,16 @@
-dateModified: 1717343537
+dateModified: 1717344615
 email:
   fromEmail: president@sgf.dev
   fromName: 'Method Conf'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  localVolume:
+    hasUrls: true
+    name: 'Local Volume'
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@web/uploads'
 meta:
   __names__:
     1d93a068-4774-49ad-960a-1a2d14ea6121: 'Home Page' # Home Page
@@ -30,6 +38,7 @@ meta:
     a174c740-f259-401e-8203-f522b28763ea: 'Twitter2 URL' # Twitter2 URL
     abfcb8b1-ecb6-44c0-885f-1e7dd29b1953: Common # Common
     b8e9493f-b388-4a6c-b8fc-0fd4ac09d75e: Sponsors # Sponsors
+    b6539371-ce4c-4185-8dd9-04a263e8cb2a: Simple # Simple
     c6c8fc5f-8358-4a21-8e10-44d032de5b0f: Page # Page
     c9de1bd4-11ed-4eab-9d41-5f074df8d40f: 'Twitter URL' # Twitter URL
     c67b8f57-8258-4a8d-a164-275fd79b7345: Session # Session
@@ -42,24 +51,24 @@ meta:
     f60cb19c-35cf-4df7-bc9d-dcbbff917cdd: 'Public Schema' # Public Schema
     ff251cf3-747b-4dab-b959-d30e55554df8: 'Sponsor Image' # Sponsor Image
 plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
   element-api:
     enabled: true
     licenseKey: null
     schemaVersion: 1.0.0
     settings: null
-  redactor:
-    enabled: true
-    licenseKey: null
-    schemaVersion: 2.3.0
-    settings: null
 system:
   edition: solo
   live: true
   name: 'Method Conf'
-  schemaVersion: 3.8.0.1
+  schemaVersion: 4.5.3.0
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
+  deactivateByDefault: false
   defaultGroup: null
   photoSubpath: ''
   photoVolumeUid: null

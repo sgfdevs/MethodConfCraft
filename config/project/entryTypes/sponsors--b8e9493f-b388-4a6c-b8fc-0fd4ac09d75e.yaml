@@ -2,6 +2,7 @@ fieldLayouts:
   4a201fe5-f498-4c5a-9e6a-4a76b2ec1120:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -23,51 +26,69 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f932b94b-cfe4-444d-8120-60d098a90062
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: ff251cf3-747b-4dab-b959-d30e55554df8 # Sponsor Image
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 33bea35a-d067-4e0d-8e1e-5f83f72bd51a
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 68729a64-08f9-43fe-b05b-9959dbff0c21 # Website URL
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 008908d4-d5d5-4f1a-80d9-61279114d0af
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 72363ca7-2a79-4a61-a970-53589df167ae # Background
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bf63c429-5594-48ef-b32a-3b9d3a913573
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 42dd3c37-b6b6-450d-84b3-ecd03f7fe859 # Mobile Sponsor
             instructions: null
             label: null
-            required: 0
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 85dc1d7b-941d-477a-ba13-51c064911e0f
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 61eaa61c-0d06-4d66-b607-edd51196d386
+        userCondition: null
 handle: sponsors
 hasTitleField: true
 name: Sponsors
 section: 5cd67bde-12a3-411c-a156-199fc34c7e80 # Sponsors
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

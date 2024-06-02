@@ -2,30 +2,34 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 7bc3d583-a86f-457a-b97a-0ba8d1711bf1 # Sponsor Fields
 handle: sponsorImage
-instructions: ''
+instructions: null
 name: 'Sponsor Image'
 searchable: true
 settings:
   allowSelfRelations: false
+  allowSubfolders: false
   allowUploads: true
   allowedKinds:
     - image
+  branchLimit: null
   defaultUploadLocationSource: 'volume:3b75095c-c375-4b83-b48c-3238aa0472d1' # Local Volume
-  defaultUploadLocationSubpath: ''
-  limit: '1'
+  defaultUploadLocationSubpath: null
   localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
   previewMode: full
-  restrictFiles: '1'
+  restrictFiles: true
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:3b75095c-c375-4b83-b48c-3238aa0472d1' # Local Volume
+  restrictedLocationSubpath: sponsors
   selectionLabel: 'Add Sponsor Image'
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
-  singleUploadLocationSource: 'volume:3b75095c-c375-4b83-b48c-3238aa0472d1' # Local Volume
-  singleUploadLocationSubpath: sponsors
-  source: null
   sources: '*'
   targetSiteId: null
-  useSingleFolder: true
   validateRelatedElements: false
   viewMode: large
 translationKeyFormat: null

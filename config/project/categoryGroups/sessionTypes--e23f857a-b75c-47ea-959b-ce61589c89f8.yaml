@@ -1,8 +1,9 @@
 defaultPlacement: end
 fieldLayouts:
-  9832732d-7721-46f0-ae6f-8b173978d792:
+  76fe0211-111d-4bcf-b4f2-25da38c06c39:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -10,7 +11,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -25,10 +28,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 972b4c9d-92fa-4e08-b305-6efc4b6969dd
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: b015f825-6e5f-4ea9-b0e4-0d0d70e6afbb
+        userCondition: null
 handle: sessionTypes
 name: 'Session Types'
 siteSettings:

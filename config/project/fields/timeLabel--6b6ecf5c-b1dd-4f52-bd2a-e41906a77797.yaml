@@ -2,16 +2,16 @@ columnSuffix: null
 contentColumnType: text
 fieldGroup: d64a3f4b-1126-4c94-8c00-6792255b93f3 # Session Fields
 handle: timeLabel
-instructions: ''
+instructions: null
 name: 'Time Label'
 searchable: true
 settings:
   byteLimit: null
   charLimit: null
-  code: ''
+  code: false
   columnType: text
-  initialRows: '4'
-  multiline: ''
+  initialRows: 4
+  multiline: false
   placeholder: null
   uiMode: normal
 translationKeyFormat: null

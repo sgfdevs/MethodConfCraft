@@ -1,7 +1,8 @@
 fieldLayouts:
-  0bf341ed-1b36-499c-b966-5667982f8f59:
+  3aa53c8a-56b4-4526-8996-ab57b9465dc7:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -23,15 +26,21 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: db3c02a1-3b0e-4610-a9bb-ac520803feec
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: d9429f60-04db-49ee-9942-9cb0a6494ab9
+        userCondition: null
 handle: homePage
 hasTitleField: false
 name: 'Home Page'
 section: 85f7820d-ba64-48d7-9114-08e3de79222d # Home Page
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

@@ -1,7 +1,8 @@
 fieldLayouts:
-  ec7fde90-2cf1-4a8e-8aee-e303bd968866:
+  bb569799-e948-423d-9893-950e77a6626e:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -23,18 +26,19 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\AssetTitleField
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: c90514fc-7dca-4004-a643-ce81007605aa
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 40ab4808-fb71-49a2-a524-e698167a1753
+        userCondition: null
+fs: localVolume
 handle: localVolume
-hasUrls: true
 name: 'Local Volume'
-settings:
-  path: '@webroot/uploads'
 sortOrder: 1
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-type: craft\volumes\Local
-url: '@web/uploads'
+transformFs: null
+transformSubpath: ''
