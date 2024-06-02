@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - 1d93a068-4774-49ad-960a-1a2d14ea6121 # Home Page
 handle: homePage
+maxAuthors: 1
 name: 'Home Page'
 previewTargets:
   -

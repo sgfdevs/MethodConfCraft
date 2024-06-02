@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: text
-fieldGroup: 2577dfee-5ef6-4a1b-bcd1-93f55efbf4fa # Speaker Fields
 handle: websiteUrl
 instructions: null
 name: 'Website URL'
@@ -9,7 +7,6 @@ settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: text
   initialRows: 4
   multiline: false
   placeholder: null

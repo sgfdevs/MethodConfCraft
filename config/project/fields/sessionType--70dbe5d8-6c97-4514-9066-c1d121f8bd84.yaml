@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: d64a3f4b-1126-4c94-8c00-6792255b93f3 # Session Fields
 handle: sessionType
 instructions: null
 name: 'Session Type'
@@ -13,6 +11,7 @@ settings:
   maxRelations: null
   minRelations: null
   selectionLabel: 'Set Session Type'
+  showCardsInGrid: false
   showSiteMenu: true
   source: 'group:e23f857a-b75c-47ea-959b-ce61589c89f8' # Session Types
   targetSiteId: null

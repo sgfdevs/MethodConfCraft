@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: 2577dfee-5ef6-4a1b-bcd1-93f55efbf4fa # Speaker Fields
 handle: image
 instructions: null
 name: Image
@@ -25,6 +23,7 @@ settings:
   restrictedLocationSource: 'volume:3b75095c-c375-4b83-b48c-3238aa0472d1' # Local Volume
   restrictedLocationSubpath: speakers
   selectionLabel: 'Add Speaker Image'
+  showCardsInGrid: false
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true

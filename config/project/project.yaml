@@ -1,4 +1,4 @@
-dateModified: 1717344615
+dateModified: 1717345453
 email:
   fromEmail: president@sgf.dev
   fromName: 'Method Conf'
@@ -17,7 +17,6 @@ meta:
     3b75095c-c375-4b83-b48c-3238aa0472d1: 'Local Volume' # Local Volume
     5cd67bde-12a3-411c-a156-199fc34c7e80: Sponsors # Sponsors
     6b6ecf5c-b1dd-4f52-bd2a-e41906a77797: 'Time Label' # Time Label
-    7bc3d583-a86f-457a-b97a-0ba8d1711bf1: 'Sponsor Fields' # Sponsor Fields
     7e355fce-5f03-4b13-8de8-b23c7f4689d1: Speaker # Speaker
     7fc45f38-3a88-4652-ab2e-0e6bac5e3779: Speaker # Speaker
     9bae2cf5-a626-476a-a0b7-fb984823e57a: 'LinkedIn URL' # LinkedIn URL
@@ -28,7 +27,6 @@ meta:
     385f8afb-ae4d-48e1-ab4d-044ea815d451: Page # Page
     466cdddf-d46c-45fd-88d1-333d6e5cf248: 'Github URL' # Github URL
     776d50aa-32ed-43ec-8217-4d36b3d9ca3b: 'Page Content' # Page Content
-    2577dfee-5ef6-4a1b-bcd1-93f55efbf4fa: 'Speaker Fields' # Speaker Fields
     40402c41-068c-4a6d-badf-cfb25d9de87c: 'Method Conf' # Method Conf
     68729a64-08f9-43fe-b05b-9959dbff0c21: 'Website URL' # Website URL
     72363ca7-2a79-4a61-a970-53589df167ae: Background # Background
@@ -36,13 +34,11 @@ meta:
     624394ce-bb4a-4e0a-8154-e7bc6371da79: Bio # Bio
     9536067d-c794-497b-977b-83252c95af94: Description # Description
     a174c740-f259-401e-8203-f522b28763ea: 'Twitter2 URL' # Twitter2 URL
-    abfcb8b1-ecb6-44c0-885f-1e7dd29b1953: Common # Common
     b8e9493f-b388-4a6c-b8fc-0fd4ac09d75e: Sponsors # Sponsors
     b6539371-ce4c-4185-8dd9-04a263e8cb2a: Simple # Simple
     c6c8fc5f-8358-4a21-8e10-44d032de5b0f: Page # Page
     c9de1bd4-11ed-4eab-9d41-5f074df8d40f: 'Twitter URL' # Twitter URL
     c67b8f57-8258-4a8d-a164-275fd79b7345: Session # Session
-    d64a3f4b-1126-4c94-8c00-6792255b93f3: 'Session Fields' # Session Fields
     dd6ca768-6d95-4de3-8e3e-133bcdf83452: Meta # Meta
     e9ca620d-c061-47f8-ae05-5f28de79ab8a: Image # Image
     e23f857a-b75c-47ea-959b-ce61589c89f8: 'Session Types' # Session Types
@@ -64,12 +60,5 @@ system:
   edition: solo
   live: true
   name: 'Method Conf'
-  schemaVersion: 4.5.3.0
+  schemaVersion: 5.0.0.20
   timeZone: America/Los_Angeles
-users:
-  allowPublicRegistration: false
-  deactivateByDefault: false
-  defaultGroup: null
-  photoSubpath: ''
-  photoVolumeUid: null
-  requireEmailVerification: true

@@ -1,5 +1,6 @@
+color: null
 fieldLayouts:
-  3aa53c8a-56b4-4526-8996-ab57b9465dc7:
+  5dce54b8-313d-4a92-90d4-0fdf9757669d:
     tabs:
       -
         elementCondition: null
@@ -12,6 +13,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -20,6 +22,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -27,21 +30,21 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: db3c02a1-3b0e-4610-a9bb-ac520803feec
+            uid: 6d04a681-bd49-414c-bec3-8080e0687780
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: d9429f60-04db-49ee-9942-9cb0a6494ab9
+        uid: 31c7b047-4749-42de-b984-d082a75bbe03
         userCondition: null
 handle: homePage
 hasTitleField: false
+icon: null
 name: 'Home Page'
-section: 85f7820d-ba64-48d7-9114-08e3de79222d # Home Page
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

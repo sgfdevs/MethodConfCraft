@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - b8e9493f-b388-4a6c-b8fc-0fd4ac09d75e # Sponsors
 handle: sponsors
+maxAuthors: 1
 name: Sponsors
 previewTargets:
   -

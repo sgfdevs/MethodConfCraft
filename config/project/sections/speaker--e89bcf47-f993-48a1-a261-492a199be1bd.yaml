@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - 7e355fce-5f03-4b13-8de8-b23c7f4689d1 # Speaker
 handle: speaker
+maxAuthors: 1
 name: Speaker
 previewTargets:
   -

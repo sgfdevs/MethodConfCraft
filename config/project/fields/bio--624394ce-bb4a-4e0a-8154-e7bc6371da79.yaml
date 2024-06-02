@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: text
-fieldGroup: 2577dfee-5ef6-4a1b-bcd1-93f55efbf4fa # Speaker Fields
 handle: bio
 instructions: null
 name: Bio
@@ -9,7 +7,7 @@ settings:
   availableTransforms: ''
   availableVolumes: '*'
   ckeConfig: b6539371-ce4c-4185-8dd9-04a263e8cb2a # Simple
-  columnType: text
+  createButtonLabel: null
   defaultTransform: null
   enableSourceEditingForNonAdmins: false
   purifierConfig: null

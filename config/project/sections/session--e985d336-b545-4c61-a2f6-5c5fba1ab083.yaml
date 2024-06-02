@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - c67b8f57-8258-4a8d-a164-275fd79b7345 # Session
 handle: session
+maxAuthors: 1
 name: Session
 previewTargets:
   -

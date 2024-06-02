@@ -1,5 +1,7 @@
+altTranslationKeyFormat: null
+altTranslationMethod: site
 fieldLayouts:
-  bb569799-e948-423d-9893-950e77a6626e:
+  9ea9fb77-b477-4bc6-a896-f55822543dc5:
     tabs:
       -
         elementCondition: null
@@ -12,6 +14,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -20,6 +23,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -27,17 +31,18 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\assets\AssetTitleField
-            uid: c90514fc-7dca-4004-a643-ce81007605aa
+            uid: 580c8a75-b34b-436d-81bb-6f646f736d7d
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 40ab4808-fb71-49a2-a524-e698167a1753
+        uid: 55d3393f-5ee9-41be-9245-32f3fb6784ed
         userCondition: null
 fs: localVolume
 handle: localVolume
 name: 'Local Volume'
 sortOrder: 1
+subpath: ''
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 transformFs: null

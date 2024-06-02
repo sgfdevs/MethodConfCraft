@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - c6c8fc5f-8358-4a21-8e10-44d032de5b0f # Page
 handle: page
+maxAuthors: 1
 name: Page
 previewTargets:
   -

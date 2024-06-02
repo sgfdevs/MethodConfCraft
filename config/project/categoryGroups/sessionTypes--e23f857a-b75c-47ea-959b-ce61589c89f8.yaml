@@ -1,6 +1,6 @@
 defaultPlacement: end
 fieldLayouts:
-  76fe0211-111d-4bcf-b4f2-25da38c06c39:
+  c803f8b4-f9ac-4bdd-8e59-bfb732e22ef2:
     tabs:
       -
         elementCondition: null
@@ -13,6 +13,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -21,6 +22,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -28,12 +30,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
-            uid: 972b4c9d-92fa-4e08-b305-6efc4b6969dd
+            uid: f93a4876-6deb-4bcc-8309-5a3250b953a7
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: b015f825-6e5f-4ea9-b0e4-0d0d70e6afbb
+        uid: 5457000e-08aa-4f1a-8762-5984219739a9
         userCondition: null
 handle: sessionTypes
 name: 'Session Types'

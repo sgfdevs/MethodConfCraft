@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: 7bc3d583-a86f-457a-b97a-0ba8d1711bf1 # Sponsor Fields
 handle: sponsorImage
 instructions: null
 name: 'Sponsor Image'
@@ -25,6 +23,7 @@ settings:
   restrictedLocationSource: 'volume:3b75095c-c375-4b83-b48c-3238aa0472d1' # Local Volume
   restrictedLocationSubpath: sponsors
   selectionLabel: 'Add Sponsor Image'
+  showCardsInGrid: false
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true

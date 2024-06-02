@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   81616812-777a-4cf9-ba90-1244c57330c4:
     tabs:
@@ -12,6 +13,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -20,6 +22,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -34,8 +37,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: e9ca620d-c061-47f8-ae05-5f28de79ab8a # Image
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -46,8 +52,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 151106e8-460f-4c27-968a-ee7e7a208172 # Professional Title
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -58,8 +67,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 624394ce-bb4a-4e0a-8154-e7bc6371da79 # Bio
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -70,8 +82,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 68729a64-08f9-43fe-b05b-9959dbff0c21 # Website URL
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -82,8 +97,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 466cdddf-d46c-45fd-88d1-333d6e5cf248 # Github URL
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -94,8 +112,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: c9de1bd4-11ed-4eab-9d41-5f074df8d40f # Twitter URL
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -106,8 +127,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: a174c740-f259-401e-8203-f522b28763ea # Twitter2 URL
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -118,8 +142,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 9bae2cf5-a626-476a-a0b7-fb984823e57a # LinkedIn URL
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -132,12 +159,12 @@ fieldLayouts:
         userCondition: null
 handle: speaker
 hasTitleField: true
+icon: null
 name: Speaker
-section: e89bcf47-f993-48a1-a261-492a199be1bd # Speaker
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

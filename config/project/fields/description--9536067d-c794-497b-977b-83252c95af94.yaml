@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: text
-fieldGroup: d64a3f4b-1126-4c94-8c00-6792255b93f3 # Session Fields
 handle: description
 instructions: null
 name: Description
@@ -9,7 +7,7 @@ settings:
   availableTransforms: ''
   availableVolumes: '*'
   ckeConfig: b6539371-ce4c-4185-8dd9-04a263e8cb2a # Simple
-  columnType: text
+  createButtonLabel: null
   defaultTransform: null
   enableSourceEditingForNonAdmins: false
   purifierConfig: null
