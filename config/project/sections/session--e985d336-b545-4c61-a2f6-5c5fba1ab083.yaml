@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: session
+name: Session
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  55cfac3d-0c99-45c7-a9df-cfb0299201e6:
+    enabledByDefault: true
+    hasUrls: true
+    template: session/_entry
+    uriFormat: 'session/{slug}'
+structure:
+  maxLevels: 1
+  uid: 051f77ca-9bdb-47e5-bf0f-9565776f847c
+type: structure

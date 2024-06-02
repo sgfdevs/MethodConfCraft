@@ -1,0 +1,41 @@
+defaultPlacement: end
+fieldLayouts:
+  e7af273d-c596-4e20-aa9b-af2fa3aae1cd:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: sessionTypes
+name: 'Session Types'
+siteSettings:
+  55cfac3d-0c99-45c7-a9df-cfb0299201e6:
+    hasUrls: true
+    template: session-types/_category
+    uriFormat: 'session-types/{slug}'
+structure:
+  maxLevels: 1
+  uid: 004913d8-d70c-43ff-95f3-d7a6ff770683

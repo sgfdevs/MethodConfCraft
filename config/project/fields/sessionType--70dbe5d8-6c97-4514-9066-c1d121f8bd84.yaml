@@ -1,0 +1,24 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: d64a3f4b-1126-4c94-8c00-6792255b93f3
+handle: sessionType
+instructions: ''
+name: 'Session Type'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: 'Set Session Type'
+  showSiteMenu: true
+  source: 'group:e23f857a-b75c-47ea-959b-ce61589c89f8'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: d64a3f4b-1126-4c94-8c00-6792255b93f3
+handle: speaker
+instructions: ''
+name: Speaker
+searchable: true
+settings:
+  allowSelfRelations: false
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: 'Set Speaker'
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:e89bcf47-f993-48a1-a261-492a199be1bd' # Speaker
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

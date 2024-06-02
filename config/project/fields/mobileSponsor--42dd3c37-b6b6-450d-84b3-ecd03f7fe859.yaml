@@ -1,0 +1,14 @@
+columnSuffix: null
+contentColumnType: boolean
+fieldGroup: 7bc3d583-a86f-457a-b97a-0ba8d1711bf1
+handle: mobileSponsor
+instructions: ''
+name: 'Mobile Sponsor'
+searchable: true
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

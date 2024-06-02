@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: sponsors
+name: Sponsors
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  55cfac3d-0c99-45c7-a9df-cfb0299201e6:
+    enabledByDefault: true
+    hasUrls: true
+    template: sponsors/_entry
+    uriFormat: 'sponsors/{slug}'
+structure:
+  maxLevels: 1
+  uid: 5ce571f6-bd4b-46f2-9918-697f4769c0e6
+type: structure
