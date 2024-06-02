@@ -58,6 +58,10 @@
                 "social",
                 "twitter"
             ],
+            "support": {
+                "issues": "https://github.com/abraham/twitteroauth/issues",
+                "source": "https://github.com/abraham/twitteroauth"
+            },
             "time": "2019-01-20T17:52:37+00:00"
         },
         {
@@ -118,6 +122,10 @@
                 "markdown",
                 "markdown-extra"
             ],
+            "support": {
+                "issues": "https://github.com/cebe/markdown/issues",
+                "source": "https://github.com/cebe/markdown"
+            },
             "time": "2018-03-26T11:24:36+00:00"
         },
         {
@@ -175,6 +183,11 @@
                 "ssl",
                 "tls"
             ],
+            "support": {
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/ca-bundle/issues",
+                "source": "https://github.com/composer/ca-bundle/tree/1.4.2"
+            },
             "funding": [
                 {
                     "url": "https://packagist.com",
@@ -266,6 +279,11 @@
                 "dependency",
                 "package"
             ],
+            "support": {
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/composer/issues",
+                "source": "https://github.com/composer/composer/tree/1.6.3"
+            },
             "time": "2018-01-31T15:28:18+00:00"
         },
         {
@@ -327,6 +345,11 @@
                 "validation",
                 "versioning"
             ],
+            "support": {
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/semver/issues",
+                "source": "https://github.com/composer/semver/tree/1.7.2"
+            },
             "funding": [
                 {
                     "url": "https://packagist.com",
@@ -402,6 +425,11 @@
                 "spdx",
                 "validator"
             ],
+            "support": {
+                "irc": "ircs://irc.libera.chat:6697/composer",
+                "issues": "https://github.com/composer/spdx-licenses/issues",
+                "source": "https://github.com/composer/spdx-licenses/tree/1.5.8"
+            },
             "funding": [
                 {
                     "url": "https://packagist.com",
@@ -510,6 +538,14 @@
                 "craftcms",
                 "yii2"
             ],
+            "support": {
+                "docs": "https://docs.craftcms.com/v3/",
+                "email": "support@craftcms.com",
+                "forum": "https://craftcms.stackexchange.com/",
+                "issues": "https://github.com/craftcms/cms/issues?state=open",
+                "rss": "https://github.com/craftcms/cms/releases.atom",
+                "source": "https://github.com/craftcms/cms"
+            },
             "time": "2020-01-14T21:16:40+00:00"
         },
         {
@@ -559,6 +595,13 @@
                 "json",
                 "yii2"
             ],
+            "support": {
+                "docs": "https://github.com/craftcms/element-api/blob/v2/README.md",
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/element-api/issues?state=open",
+                "rss": "https://github.com/craftcms/element-api/commits/v2.atom",
+                "source": "https://github.com/craftcms/element-api"
+            },
             "time": "2019-08-01T22:45:15+00:00"
         },
         {
@@ -610,6 +653,10 @@
                 "oauth",
                 "oauth2"
             ],
+            "support": {
+                "issues": "https://github.com/craftcms/oauth2-craftid/issues",
+                "source": "https://github.com/craftcms/oauth2-craftid/tree/1.0.0.1"
+            },
             "time": "2017-11-22T19:46:18+00:00"
         },
         {
@@ -655,6 +702,14 @@
                 "installer",
                 "plugin"
             ],
+            "support": {
+                "docs": "https://craftcms.com/docs",
+                "email": "support@craftcms.com",
+                "forum": "https://craftcms.stackexchange.com/",
+                "issues": "https://github.com/craftcms/cms/issues?state=open",
+                "rss": "https://craftcms.com/changelog.rss",
+                "source": "https://github.com/craftcms/cms"
+            },
             "time": "2021-02-18T02:01:38+00:00"
         },
         {
@@ -703,6 +758,13 @@
                 "html",
                 "yii2"
             ],
+            "support": {
+                "docs": "https://github.com/craftcms/redactor/blob/v2/README.md",
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/redactor/issues?state=open",
+                "rss": "https://github.com/craftcms/redactor/commits/v2.atom",
+                "source": "https://github.com/craftcms/redactor"
+            },
             "abandoned": "craftcms/ckeditor",
             "time": "2019-09-13T11:02:32+00:00"
         },
@@ -738,6 +800,14 @@
                 "requirements",
                 "yii2"
             ],
+            "support": {
+                "docs": "https://github.com/craftcms/docs",
+                "email": "support@craftcms.com",
+                "forum": "https://craftcms.stackexchange.com/",
+                "issues": "https://github.com/craftcms/server-check/issues?state=open",
+                "rss": "https://github.com/craftcms/server-check/releases.atom",
+                "source": "https://github.com/craftcms/server-check"
+            },
             "time": "2020-07-14T18:57:12+00:00"
         },
         {
@@ -778,6 +848,10 @@
                 "nested sets",
                 "yii2"
             ],
+            "support": {
+                "issues": "https://github.com/creocoder/yii2-nested-sets/issues",
+                "source": "https://github.com/creocoder/yii2-nested-sets/tree/master"
+            },
             "time": "2015-01-27T10:53:51+00:00"
         },
         {
@@ -838,6 +912,10 @@
                 "parser",
                 "php"
             ],
+            "support": {
+                "issues": "https://github.com/doctrine/lexer/issues",
+                "source": "https://github.com/doctrine/lexer/tree/1.0.2"
+            },
             "time": "2019-06-08T11:03:04+00:00"
         },
         {
@@ -896,6 +974,10 @@
                 "validation",
                 "validator"
             ],
+            "support": {
+                "issues": "https://github.com/egulias/EmailValidator/issues",
+                "source": "https://github.com/egulias/EmailValidator/tree/2.1.25"
+            },
             "funding": [
                 {
                     "url": "https://github.com/egulias",
@@ -940,6 +1022,10 @@
                 "emoji",
                 "php-emoji"
             ],
+            "support": {
+                "issues": "https://github.com/elvanto/litemoji/issues",
+                "source": "https://github.com/elvanto/litemoji/tree/master"
+            },
             "time": "2018-09-28T05:23:38+00:00"
         },
         {
@@ -981,6 +1067,10 @@
                 }
             ],
             "description": "An SVG sanitizer for PHP",
+            "support": {
+                "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/develop"
+            },
             "time": "2020-01-20T01:34:17+00:00"
         },
         {
@@ -1038,6 +1128,10 @@
             "keywords": [
                 "html"
             ],
+            "support": {
+                "issues": "https://github.com/ezyang/htmlpurifier/issues",
+                "source": "https://github.com/ezyang/htmlpurifier/tree/v4.17.0"
+            },
             "time": "2023-11-17T15:01:25+00:00"
         },
         {
@@ -1135,6 +1229,10 @@
                 "rest",
                 "web service"
             ],
+            "support": {
+                "issues": "https://github.com/guzzle/guzzle/issues",
+                "source": "https://github.com/guzzle/guzzle/tree/6.5.8"
+            },
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -1210,6 +1308,10 @@
             "keywords": [
                 "promise"
             ],
+            "support": {
+                "issues": "https://github.com/guzzle/promises/issues",
+                "source": "https://github.com/guzzle/promises/tree/1.5.3"
+            },
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -1311,6 +1413,10 @@
                 "uri",
                 "url"
             ],
+            "support": {
+                "issues": "https://github.com/guzzle/psr7/issues",
+                "source": "https://github.com/guzzle/psr7/tree/1.9.1"
+            },
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -1391,6 +1497,10 @@
                 "json",
                 "schema"
             ],
+            "support": {
+                "issues": "https://github.com/jsonrainbow/json-schema/issues",
+                "source": "https://github.com/jsonrainbow/json-schema/tree/v5.2.13"
+            },
             "time": "2023-09-26T02:20:38+00:00"
         },
         {
@@ -1475,6 +1585,10 @@
                 "sftp",
                 "storage"
             ],
+            "support": {
+                "issues": "https://github.com/thephpleague/flysystem/issues",
+                "source": "https://github.com/thephpleague/flysystem/tree/1.0.70"
+            },
             "funding": [
                 {
                     "url": "https://offset.earth/frankdejonge",
@@ -1545,6 +1659,10 @@
                 "league",
                 "rest"
             ],
+            "support": {
+                "issues": "https://github.com/thephpleague/fractal/issues",
+                "source": "https://github.com/thephpleague/fractal/tree/master"
+            },
             "time": "2019-05-10T02:16:43+00:00"
         },
         {
@@ -1611,6 +1729,10 @@
                 "oauth2",
                 "single sign on"
             ],
+            "support": {
+                "issues": "https://github.com/thephpleague/oauth2-client/issues",
+                "source": "https://github.com/thephpleague/oauth2-client/tree/2.7.0"
+            },
             "time": "2023-04-16T18:19:15+00:00"
         },
         {
@@ -1653,6 +1775,10 @@
             "keywords": [
                 "shell"
             ],
+            "support": {
+                "issues": "https://github.com/mikehaertl/php-shellcommand/issues",
+                "source": "https://github.com/mikehaertl/php-shellcommand/tree/1.7.0"
+            },
             "time": "2023-04-19T08:25:22+00:00"
         },
         {
@@ -1698,6 +1824,11 @@
                 "pseudorandom",
                 "random"
             ],
+            "support": {
+                "email": "info@paragonie.com",
+                "issues": "https://github.com/paragonie/random_compat/issues",
+                "source": "https://github.com/paragonie/random_compat"
+            },
             "time": "2020-10-15T08:29:30+00:00"
         },
         {
@@ -1752,6 +1883,10 @@
                 "reflection",
                 "static analysis"
             ],
+            "support": {
+                "issues": "https://github.com/phpDocumentor/ReflectionCommon/issues",
+                "source": "https://github.com/phpDocumentor/ReflectionCommon/tree/master"
+            },
             "time": "2017-09-11T18:02:19+00:00"
         },
         {
@@ -1804,6 +1939,10 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
+            "support": {
+                "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
+                "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/release/4.x"
+            },
             "time": "2019-12-28T18:55:12+00:00"
         },
         {
@@ -1849,6 +1988,10 @@
                     "email": "me@mikevanriel.com"
                 }
             ],
+            "support": {
+                "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/master"
+            },
             "time": "2017-12-30T13:23:38+00:00"
         },
         {
@@ -1907,6 +2050,9 @@
                 "image manipulation",
                 "image processing"
             ],
+            "support": {
+                "source": "https://github.com/pixelandtonic/Imagine/tree/1.2.2.1"
+            },
             "time": "2019-07-19T12:55:50+00:00"
         },
         {
@@ -1957,6 +2103,9 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -2004,6 +2153,9 @@
                 "psr",
                 "psr-3"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
             "time": "2021-05-03T11:20:27+00:00"
         },
         {
@@ -2044,6 +2196,10 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
+            "support": {
+                "issues": "https://github.com/ralouphie/getallheaders/issues",
+                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+            },
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
@@ -2095,6 +2251,10 @@
                 "input",
                 "prompt"
             ],
+            "support": {
+                "issues": "https://github.com/Seldaek/cli-prompt/issues",
+                "source": "https://github.com/Seldaek/cli-prompt/tree/1.0.4"
+            },
             "time": "2020-12-15T21:32:01+00:00"
         },
         {
@@ -2145,6 +2305,10 @@
                 "parser",
                 "validator"
             ],
+            "support": {
+                "issues": "https://github.com/Seldaek/jsonlint/issues",
+                "source": "https://github.com/Seldaek/jsonlint/tree/1.10.2"
+            },
             "funding": [
                 {
                     "url": "https://github.com/Seldaek",
@@ -2199,6 +2363,10 @@
             "keywords": [
                 "phar"
             ],
+            "support": {
+                "issues": "https://github.com/Seldaek/phar-utils/issues",
+                "source": "https://github.com/Seldaek/phar-utils/tree/1.2.1"
+            },
             "time": "2022-08-31T10:31:18+00:00"
         },
         {
@@ -2260,6 +2428,10 @@
                 "mail",
                 "mailer"
             ],
+            "support": {
+                "issues": "https://github.com/swiftmailer/swiftmailer/issues",
+                "source": "https://github.com/swiftmailer/swiftmailer/tree/v6.3.0"
+            },
             "funding": [
                 {
                     "url": "https://github.com/fabpot",
@@ -2340,6 +2512,9 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/console/tree/3.3"
+            },
             "time": "2017-07-29T21:27:59+00:00"
         },
         {
@@ -2396,6 +2571,9 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/debug/tree/3.3"
+            },
             "abandoned": "symfony/error-handler",
             "time": "2017-07-28T15:27:31+00:00"
         },
@@ -2446,6 +2624,9 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/filesystem/tree/3.3"
+            },
             "time": "2017-07-11T07:17:58+00:00"
         },
         {
@@ -2495,6 +2676,9 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/finder/tree/3.3"
+            },
             "time": "2017-06-01T21:01:25+00:00"
         },
         {
@@ -2557,6 +2741,9 @@
                 "polyfill",
                 "portable"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.19.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2634,6 +2821,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-iconv/tree/v1.19.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2712,6 +2902,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.19.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2797,6 +2990,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.19.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2878,6 +3074,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.19.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2955,6 +3154,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.19.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3032,6 +3234,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php70/tree/v1.19.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3105,6 +3310,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php72/tree/v1.19.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3168,6 +3376,9 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/process/tree/3.3"
+            },
             "time": "2017-07-13T13:05:09+00:00"
         },
         {
@@ -3223,6 +3434,9 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/yaml/tree/3.3"
+            },
             "time": "2017-07-23T12:43:26+00:00"
         },
         {
@@ -3269,6 +3483,10 @@
                 "idna",
                 "punycode"
             ],
+            "support": {
+                "issues": "https://github.com/true/php-punycode/issues",
+                "source": "https://github.com/true/php-punycode/tree/master"
+            },
             "abandoned": true,
             "time": "2016-11-16T10:37:54+00:00"
         },
@@ -3335,6 +3553,10 @@
             "keywords": [
                 "templating"
             ],
+            "support": {
+                "issues": "https://github.com/twigphp/Twig/issues",
+                "source": "https://github.com/twigphp/Twig/tree/2.x"
+            },
             "time": "2020-02-11T15:31:23+00:00"
         },
         {
@@ -3397,6 +3619,10 @@
                 "env",
                 "environment"
             ],
+            "support": {
+                "issues": "https://github.com/vlucas/phpdotenv/issues",
+                "source": "https://github.com/vlucas/phpdotenv/tree/v2.6.9"
+            },
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -3464,6 +3690,10 @@
                 "security",
                 "xss"
             ],
+            "support": {
+                "issues": "https://github.com/voku/anti-xss/issues",
+                "source": "https://github.com/voku/anti-xss/tree/4.1.34"
+            },
             "funding": [
                 {
                     "url": "https://www.paypal.me/moelleken",
@@ -3542,6 +3772,11 @@
                 "utility",
                 "utils"
             ],
+            "support": {
+                "docs": "http://voku.github.io/Arrayy/index.html",
+                "issues": "https://github.com/voku/Arrayy/issues",
+                "source": "https://github.com/voku/Arrayy"
+            },
             "time": "2019-11-18T00:23:19+00:00"
         },
         {
@@ -3596,6 +3831,10 @@
                 "validate-email-address",
                 "validate-mail"
             ],
+            "support": {
+                "issues": "https://github.com/voku/email-check/issues",
+                "source": "https://github.com/voku/email-check/tree/3.1.0"
+            },
             "funding": [
                 {
                     "url": "https://www.paypal.me/moelleken",
@@ -3662,6 +3901,10 @@
                 "clean",
                 "php"
             ],
+            "support": {
+                "issues": "https://github.com/voku/portable-ascii/issues",
+                "source": "https://github.com/voku/portable-ascii/tree/1.5.6"
+            },
             "funding": [
                 {
                     "url": "https://www.paypal.me/moelleken",
@@ -3757,6 +4000,10 @@
                 "utf-8",
                 "utf8"
             ],
+            "support": {
+                "issues": "https://github.com/voku/portable-utf8/issues",
+                "source": "https://github.com/voku/portable-utf8/tree/5.4.51"
+            },
             "funding": [
                 {
                     "url": "https://www.paypal.me/moelleken",
@@ -3822,6 +4069,10 @@
                 "stop words",
                 "stop-words"
             ],
+            "support": {
+                "issues": "https://github.com/voku/stop-words/issues",
+                "source": "https://github.com/voku/stop-words/tree/master"
+            },
             "time": "2018-11-23T01:37:27+00:00"
         },
         {
@@ -3890,6 +4141,10 @@
                 "utility",
                 "utils"
             ],
+            "support": {
+                "issues": "https://github.com/voku/Stringy/issues",
+                "source": "https://github.com/voku/Stringy"
+            },
             "time": "2019-08-21T12:37:12+00:00"
         },
         {
@@ -3949,6 +4204,10 @@
                 "url",
                 "urlify"
             ],
+            "support": {
+                "issues": "https://github.com/voku/urlify/issues",
+                "source": "https://github.com/voku/urlify/tree/4.1.1"
+            },
             "time": "2019-09-03T19:11:20+00:00"
         },
         {
@@ -3998,6 +4257,10 @@
                 "check",
                 "validate"
             ],
+            "support": {
+                "issues": "https://github.com/webmozarts/assert/issues",
+                "source": "https://github.com/webmozarts/assert/tree/1.9.1"
+            },
             "time": "2020-07-08T17:02:28+00:00"
         },
         {
@@ -4043,6 +4306,10 @@
                 "api",
                 "graphql"
             ],
+            "support": {
+                "issues": "https://github.com/webonyx/graphql-php/issues",
+                "source": "https://github.com/webonyx/graphql-php/tree/0.12.x"
+            },
             "time": "2018-09-02T14:59:54+00:00"
         },
         {
@@ -4096,6 +4363,12 @@
                 "soft",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "issues": "https://github.com/yii2tech/ar-softdelete/issues",
+                "source": "https://github.com/yii2tech/ar-softdelete",
+                "wiki": "https://github.com/yii2tech/ar-softdelete/wiki"
+            },
             "abandoned": true,
             "time": "2019-07-30T11:05:57+00:00"
         },
@@ -4197,6 +4470,13 @@
                 "framework",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+                "source": "https://github.com/yiisoft/yii2",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
             "time": "2019-12-18T12:52:03+00:00"
         },
         {
@@ -4252,6 +4532,13 @@
                 "extension installer",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-composer/issues",
+                "source": "https://github.com/yiisoft/yii2-composer",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
             "funding": [
                 {
                     "url": "https://github.com/yiisoft",
@@ -4335,6 +4622,13 @@
                 "debugger",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-debug/issues",
+                "source": "https://github.com/yiisoft/yii2-debug",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
             "funding": [
                 {
                     "url": "https://github.com/yiisoft",
@@ -4433,6 +4727,11 @@
                 "sqs",
                 "yii"
             ],
+            "support": {
+                "docs": "https://github.com/yiisoft/yii2-queue/blob/master/docs/guide",
+                "issues": "https://github.com/yiisoft/yii2-queue/issues",
+                "source": "https://github.com/yiisoft/yii2-queue"
+            },
             "time": "2018-05-23T21:04:57+00:00"
         },
         {
@@ -4497,6 +4796,13 @@
                 "swiftmailer",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-swiftmailer/issues",
+                "source": "https://github.com/yiisoft/yii2-swiftmailer",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
             "funding": [
                 {
                     "url": "https://github.com/yiisoft",
@@ -4556,6 +4862,14 @@
                 "escaper",
                 "zf"
             ],
+            "support": {
+                "chat": "https://zendframework-slack.herokuapp.com",
+                "docs": "https://docs.zendframework.com/zend-escaper/",
+                "forum": "https://discourse.zendframework.com/c/questions/components",
+                "issues": "https://github.com/zendframework/zend-escaper/issues",
+                "rss": "https://github.com/zendframework/zend-escaper/releases.atom",
+                "source": "https://github.com/zendframework/zend-escaper"
+            },
             "abandoned": "laminas/laminas-escaper",
             "time": "2019-09-05T20:03:20+00:00"
         },
@@ -4620,6 +4934,14 @@
                 "feed",
                 "zf"
             ],
+            "support": {
+                "docs": "https://docs.zendframework.com/zend-feed/",
+                "forum": "https://discourse.zendframework.com/c/questions/components",
+                "issues": "https://github.com/zendframework/zend-feed/issues",
+                "rss": "https://github.com/zendframework/zend-feed/releases.atom",
+                "slack": "https://zendframework-slack.herokuapp.com",
+                "source": "https://github.com/zendframework/zend-feed"
+            },
             "abandoned": "laminas/laminas-feed",
             "time": "2019-03-05T20:08:49+00:00"
         },
@@ -4667,6 +4989,14 @@
                 "stdlib",
                 "zf"
             ],
+            "support": {
+                "docs": "https://docs.zendframework.com/zend-stdlib/",
+                "forum": "https://discourse.zendframework.com/c/questions/components",
+                "issues": "https://github.com/zendframework/zend-stdlib/issues",
+                "rss": "https://github.com/zendframework/zend-stdlib/releases.atom",
+                "slack": "https://zendframework-slack.herokuapp.com",
+                "source": "https://github.com/zendframework/zend-stdlib"
+            },
             "abandoned": "laminas/laminas-stdlib",
             "time": "2018-08-28T21:34:05+00:00"
         }
@@ -4682,5 +5012,5 @@
     "platform-overrides": {
         "php": "7.0"
     },
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }

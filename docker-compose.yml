@@ -26,7 +26,7 @@ services:
       args:
           WWWUSER: "${WWWUSER:-1000}"
           WWWGROUP: "${WWWGROUP:-1000}"
-    image: craft-8.1/app
+    image: craft-7.2/app
     ports:
       - "8080:8080"
       - "5173:5173"
