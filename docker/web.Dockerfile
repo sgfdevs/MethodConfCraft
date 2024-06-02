@@ -1,4 +1,4 @@
-FROM craftcms/nginx:7.4-dev
+FROM craftcms/nginx:8.2-dev
 
 ARG WWWGROUP
 ARG WWWUSER

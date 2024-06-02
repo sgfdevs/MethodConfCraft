@@ -1,4 +1,4 @@
-FROM craftcms/cli:7.4-dev
+FROM craftcms/cli:8.2-dev
 
 ARG WWWGROUP
 ARG WWWUSER
